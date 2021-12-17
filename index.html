@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>::Selection</title>
+    <style>
+        @charset "UTF-8";
+
+        * {
+            padding: 0;
+            margin: 0;
+            border: 0;
+            outline: 0;
+            box-sizing: border-box;
+        }
+
+        :root {
+
+        }
+
+        body {
+            text-align: center;
+            font-family: monospace;
+            font-size: 3em;
+        }
+
+        img[src="Arcadia_bay.png"], img[alt=Max] {
+            max-width: 500px;
+            min-height: 400px;
+        }
+
+        button {
+            display: block;
+            padding: 14px;
+            margin: 0 auto;
+        }
+
+        button::selection {
+            color: red;
+            background-color: red;
+            font-size: 6em;
+        }
+    </style>
+</head>
+
+<body>
+    <p>OLÁ</p>
+
+    <img src="Arcadia_bay.png" alt="Bay">
+
+    <img src="MAX-&-CHLOE.png" alt="Max">
+
+    <button>Oi</button>
+</body>
+</html>
